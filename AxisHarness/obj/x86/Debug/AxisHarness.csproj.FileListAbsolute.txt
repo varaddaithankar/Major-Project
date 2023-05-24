@@ -1,0 +1,2 @@
+C:\Project\gc-project\Framework\TestHarnesses\AxisHarness\obj\x86\Debug\Interop.AxisLib.dll
+C:\Project\gc-project\Framework\TestHarnesses\AxisHarness\obj\x86\Debug\AxisHarness.csproj.ResolveComReference.cache
