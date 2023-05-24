@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#GEN-1485] Create App To Transfer Metrology Data From UserConfig to Machine Storage</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-mapd.renishaw.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [GEN-1485]&nbsp;<a href="https://jira-mapd.renishaw.com/browse/GEN-1485">Create App To Transfer Metrology Data From UserConfig to Machine Storage</a>
+            <span class="subText">
+               Created: 17/Apr/23                   &nbsp;Updated: 22/May/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Development</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-mapd.renishaw.com/secure/BrowseProject.jspa?id=10401">GenericController</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="EquinoxGC A2.1"
+                href="https://jira-mapd.renishaw.com/issues/?jql=project%3D10401%20AND%20%22fixVersion%22%3D23207%20ORDER%20BY%20priority%20ASC"
+            >EquinoxGC A2.1</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="pc107927" id="word_reporter_pc107927" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=pc107927">Peter Carty</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="na140330" id="word_assignee_na140330" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=na140330">Neeraj Agrawal</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-41249-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-mapd.renishaw.com/images/icons/attach/file.gif" height="16" width="16" border="0" alt="File" role="presentation">
+                    DEV008_2023-04-05_13-23_userconfig_mapped-2023-04-17_10-19.ini &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://jira-mapd.renishaw.com/browse/GEN-1415">
+                     <strike>GEN-1415</strike>                 </a>
+            </td>
+            <td>
+                Provide API Interface for Accessing E...
+            </td>
+            <td>
+                Closed
+            </td>
+        </tr>
+                                                <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-mapd.renishaw.com/browse/GEN-1505">
+                     <strike>GEN-1505</strike>                 </a>
+            </td>
+            <td>
+                Add functionality to directly read an...
+            </td>
+            <td>
+                Closed
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-mapd.renishaw.com/browse/GEN-1416">
+                     <strike>GEN-1416</strike>                 </a>
+            </td>
+            <td>
+                Use Data in HUB EEPROM For Strut Slop...
+            </td>
+            <td>
+                Closed
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://jira-mapd.renishaw.com/browse/GEN-1418">
+                     <strike>GEN-1418</strike>                 </a>
+            </td>
+            <td>
+                Use Data in HUB EEPROM For Squareness...
+            </td>
+            <td>
+                Closed
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10004-41249-value" class="value" bgcolor="#ffffff" width="80%">Unity 14</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10002-41249-value" class="value" bgcolor="#ffffff" width="80%">    5
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10502-41249-value" class="value" bgcolor="#ffffff" width="80%">      Be able to update the HUB EEPROM contents from a userconfig.ini and visa versa using a C# application. The application should display the data last read / written and it should also be possible to manually change the data prior to it being written.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Verification Resolution:</b></td>
+                <td id="customfield_10912-41249-value" class="value" bgcolor="#ffffff" width="80%">    Required
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Product:</b></td>
+                <td id="customfield_11100-41249-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_11100-field">
+        							<span>SCORPIO (6511)</span>,			        							<span>SIRIUS (6620)</span>,			        							<span>EQUINOX (6620)</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Teams:</b></td>
+                <td id="customfield_12201-41249-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_12201-field">
+        							<span>Global</span>,			        							<span>Discovery</span>			            </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>To help facilitate the testing of A2.0 we would like to create an application which will allow us to transfer the metrology information (strut serial numbers, strut slope, strut offset, metrology frame definition &amp; squareness compensation) from the userconfig.ini to the Hub EEEPROM.</p>
+
+<p>This can be done by interacting with just the HUBEEPROMInterface rather than interacting with the various objects. While it will require a need to then reboot the controller it is still better than having nothing and will allow for everything to be validated with the latest dev branch.</p>
+
+<p>In regards to the strut slope and strut offset values if they aren't defined in the userconfig.ini then do not set them unless they are manually entered in the application. With the strut slope, strut offset and strut serial number we have are able to set appropriate default values in the code.</p>
+
+<p>The software should be able to operate in both directions allowing the system to be restarted after the data is stored and read back out and written to the userconfig.ini to allow the validation to be done by comparing the contents of the userconfig.ini.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-57101"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="cm140006" id="word_commented_cm140006" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=cm140006">Christopher Munro</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">20/Apr/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-57101"><td bgcolor="#ffffff">
+            <p>FYI we are using a custom name for the kinematic model in some of the userconfigs, this is so that we can easily revert to a "unmapped" state if there were any issues.<br/>
+I have attached a example userconfig showing this.</p>
+        </td></tr>
+                <tr id="comment-header-57103"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="pc107927" id="word_commented_pc107927" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=pc107927">Peter Carty</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">20/Apr/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-57103"><td bgcolor="#ffffff">
+            <p><a href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=cm140006" class="user-hover" rel="cm140006">Christopher Munro</a> This should be left as a nice to have and isn't something I am going to say we need to support in the application although if we have time I will see if it can be included.</p>
+        </td></tr>
+                <tr id="comment-header-57332"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="ma150864" id="word_commented_ma150864" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=ma150864">Matt Ainsworth</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">03/May/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-57332"><td bgcolor="#ffffff">
+            <p>As a note on implementation, this should use the demand modifier COM interfaces to call the data specific functions for getting / setting the userconfig data. (Rather than directly accessing the HubEEPROM hardware interface)</p>
+        </td></tr>
+            </table>
+Generated at Wed May 24 05:58:33 BST 2023 using Jira 8.13.6#813006-sha1:c80b532d1548204046cfe944f89543d5d16534db.
+
+</body>
+</html>

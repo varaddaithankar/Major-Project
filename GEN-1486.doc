@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#GEN-1486] Use DSP S-91 Value Instead of MDV.txt Value</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-mapd.renishaw.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [GEN-1486]&nbsp;<a href="https://jira-mapd.renishaw.com/browse/GEN-1486">Use DSP S-91 Value Instead of MDV.txt Value</a>
+            <span class="subText">
+               Created: 17/Apr/23                   &nbsp;Updated: 02/May/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Selected for Development</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira-mapd.renishaw.com/secure/BrowseProject.jspa?id=10401">GenericController</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="GEN 2.7.0.0"
+                href="https://jira-mapd.renishaw.com/issues/?jql=project%3D10401%20AND%20%22fixVersion%22%3D23206%20ORDER%20BY%20priority%20ASC"
+            >GEN 2.7.0.0</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="pc107927" id="word_reporter_pc107927" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=pc107927">Peter Carty</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="vd153324" id="word_assignee_vd153324" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=vd153324">Varad Daithankar</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-41251-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira-mapd.renishaw.com/images/icons/attach/pdf.gif" height="16" width="16" border="0" alt="PDF File" role="presentation">
+                    SPA2 SDD 5.pdf &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Implements</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                implements
+            </td>
+            <td>
+                <a href="https://jira-mapd.renishaw.com/browse/SA-3910">
+                     SA-3910                 </a>
+            </td>
+            <td>
+                Eq300 homing fails when a new Control...
+            </td>
+            <td>
+                SA:Accepted
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10004-41251-value" class="value" bgcolor="#ffffff" width="80%">Unity 14</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10002-41251-value" class="value" bgcolor="#ffffff" width="80%">    5
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10502-41251-value" class="value" bgcolor="#ffffff" width="80%">      Use a drive scaling value based on the DSP S-91 parameter and make the MDV.txt value irrelevant (the file itself should be able to be removed without any adverse effect)
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Verification Resolution:</b></td>
+                <td id="customfield_10912-41251-value" class="value" bgcolor="#ffffff" width="80%">    Required
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Product:</b></td>
+                <td id="customfield_11100-41251-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_11100-field">
+        							<span>EQ-300 (5504)</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Teams:</b></td>
+                <td id="customfield_12201-41251-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_12201-field">
+        							<span>Global</span>,			        							<span>Discovery</span>			            </div>
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>With changes in the gearing ratios between different variants of the Equator 300 drive if we replace one variant with a different variant then the drive scaling as defined in the MDV.txt file can become wrong.<br/>
+As the DSP functionality also needs the scaling for it's work then it holds a value in a per Axis parameter numbered S-91.<br/>
+To avoid issues around replacing controllers after a strut has been replaced we want to move away from using the value in the MDV.txt file and instead derive the value from the S-91 parameter in the DSP.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-57148"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="pc107927" id="word_commented_pc107927" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=pc107927">Peter Carty</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">21/Apr/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-57148"><td bgcolor="#ffffff">
+            <p>I've just attached a design document for the DSP firmware which may be informative when it comes to understanding how things work</p>
+        </td></tr>
+                <tr id="comment-header-57179"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="vd153324" id="word_commented_vd153324" href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=vd153324">Varad Daithankar</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">25/Apr/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-57179"><td bgcolor="#ffffff">
+            <p><a href="https://jira-mapd.renishaw.com/secure/ViewProfile.jspa?name=pc107927" class="user-hover" rel="pc107927">Peter Carty</a> Thanks for the document, looking into it.</p>
+        </td></tr>
+            </table>
+Generated at Wed May 24 05:57:43 BST 2023 using Jira 8.13.6#813006-sha1:c80b532d1548204046cfe944f89543d5d16534db.
+
+</body>
+</html>
